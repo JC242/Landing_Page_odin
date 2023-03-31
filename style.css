@@ -131,7 +131,7 @@ a, .content-container{
     justify-content: center;
 }
 .action-text{
-    color: #e5e7eb;
+    color: white;
     margin: 0 48px;
 }
 .action-title{
@@ -140,11 +140,20 @@ a, .content-container{
 }
 .signup{
     background-color: #3882F6;
+    margin-left: 100px;
     border: 1px solid white;
-    border-radius: 4px;
-    width: 100px;
+    border-radius: 6px;
+    width: 120px;
     height: auto;
+    padding: 8px;
     font-size: 18px;
     color: white;
-
+}
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 32px;
 }
