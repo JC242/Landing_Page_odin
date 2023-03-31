@@ -94,3 +94,24 @@ a, .content-container{
     width: 120px;
     margin: 16px;
 }
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 200px;
+    justify-content: center;
+}
+.quote{
+    font-family: light;
+    font-style: italic;
+    font-size: 36px;
+    width: 700px;
+    color: #1f2937;
+    align-self: center;
+}
+.person{
+    font-weight: 700;
+    font-size: 24px;
+    align-self:flex-end;
+
+}
