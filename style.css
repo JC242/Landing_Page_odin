@@ -113,5 +113,38 @@ a, .content-container{
     font-weight: 700;
     font-size: 24px;
     align-self:flex-end;
+}
+.action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+.message{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    width: 900px;
+    height: auto;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.action-text{
+    color: #e5e7eb;
+    margin: 0 48px;
+}
+.action-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.signup{
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100px;
+    height: auto;
+    font-size: 18px;
+    color: white;
 
 }
