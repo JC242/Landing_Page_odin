@@ -72,9 +72,18 @@ a, .content-container{
     font-size: 18px;
 }
 .information-container{
+    text-align: center;
     display:flex;
     flex-direction: column;
+    margin: 32px;
+    justify-content: center;
+    align-items: center;
 
+}
+.information-header{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
 }
 .information-cards{
     display: flex;
@@ -82,4 +91,6 @@ a, .content-container{
 .card{
     display: flex;
     flex-direction: column;
+    width: 120px;
+    margin: 16px;
 }
